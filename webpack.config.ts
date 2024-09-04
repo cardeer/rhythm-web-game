@@ -50,6 +50,9 @@ const config = (env: any): Configuration => {
         template: "./public/index.html",
       }),
     ],
+    resolve: {
+      extensions: [".ts", ".tsx", ".js", ".jsx"],
+    },
   };
 };
 

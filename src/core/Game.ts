@@ -5,4 +5,8 @@ export const game = new Phaser.Game({
   scene: MenuScene,
   width: window.innerWidth,
   height: window.innerHeight,
+  input: {
+    keyboard: true,
+    mouse: true,
+  },
 });
